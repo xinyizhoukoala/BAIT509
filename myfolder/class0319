@@ -1,0 +1,24 @@
+Bagging is a special case of random forests under which case?
+--- Bagging is a special case of a random forest when m = p. 
+    Therefore, the randomForest() function can be used to perform both random forests and bagging
+
+What are the hyperparameters we can control for random forests?
+--- Number of trees in the foreset, max number of features considered for splitting a node,
+    max number of levels in each decision tree, method for sampling data points (with or without replacement)
+
+Suppose you have the following paired data of (x,y): (1,2), (1,5), (2,0). Which of the following are valid bootstrapped data sets? Why/why not?
+(1,0), (1,2), (1,5)
+(1,2), (2,0)
+(1,2), (1,2), (1,5)
+--- The first one is not valid, but the latter two data sets are valid. Becasuse for the first option, (1,0) is not in the original data set.
+
+For each of the above valid bootstapped data sets, which observations are out-of-bag (OOB)?
+--- for the 2nd data set: the OOB observation is (1,5)
+    for the 3rd data set: the OOB observation is (2,0)
+
+You make a random forest consisting of four trees. You obtain a new observation of predictors, and would like to predict the response. 
+What would your prediction be in the following cases?
+Regression: your trees make the following four predictions: 1,1,3,3.
+Classification: your trees make the following four predictions: “A”, “A”, “B”, “C”.
+--- As for the regression model, I choose the average to be my prediction - that will be 2
+--- As for the classification model, I use the most frequnent votes as my prediction - that will be A
