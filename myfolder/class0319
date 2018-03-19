@@ -10,11 +10,11 @@ Suppose you have the following paired data of (x,y): (1,2), (1,5), (2,0). Which 
 (1,0), (1,2), (1,5)
 (1,2), (2,0)
 (1,2), (1,2), (1,5)
---- The first one is not valid, but the latter two data sets are valid. Becasuse for the first option, (1,0) is not in the original data set.
+--- The first two cases are not valid, but the third one is valid. 
+    Becasuse for the first option, (1,0) is not in the original data set. For the second option, there are only 2 observations while the original data have 3 observations.
 
 For each of the above valid bootstapped data sets, which observations are out-of-bag (OOB)?
---- for the 2nd data set: the OOB observation is (1,5)
-    for the 3rd data set: the OOB observation is (2,0)
+--- for the 3rd data set: the OOB observation is (2,0)
 
 You make a random forest consisting of four trees. You obtain a new observation of predictors, and would like to predict the response. 
 What would your prediction be in the following cases?
