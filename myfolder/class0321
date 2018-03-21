@@ -1,0 +1,14 @@
+For Q(1), I choose candidate A. Because with the same mean value of productivity score, candidate A has a higher probability to 
+actually realize the mean productivity score. As we can see here, A has a smaller range of possible probability levels, so the
+pro is that the bottom line for A is higher than that of B; on the other side, the maximum productivity level that A could 
+achieve is also lower than that of B.
+=> we are pretty sure that the productivity level of A is pretty close to 75, but we are not so sure about B's actual 
+productivity
+=> hiring B is a little bit more risky
+
+For Q(2), I choose candidate B. Overall, B has a higher average productivity level than A, even the bottom line of candidate B 
+is higher than the maximum level that candidate A could achieve. However, A has an advantage over B on the stablity, since the
+range of possible productivity levels of A is much more concentrated. In reality, candidate A will be more confident of the 
+productivity level promised to partners. But candidate B is always better than A, it is the point why I still decide to hire B.
+
+For Q(3), it is biased. We want to reduce k.
