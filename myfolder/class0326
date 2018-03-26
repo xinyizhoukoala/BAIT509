@@ -1,0 +1,22 @@
+Construct the decision rule according to this classification boundary. 
+How would you classify a new observation that has x1=6 and x2=10?
+--- I choose the line so that the observations closest to the line are as far away as possible. 
+    This minimizes the chance that a new observation will be misclassified.
+    For any given line, we can define the “widest slab” before touching an observation.
+    I would classify the new observation as A.
+
+What size is the margin here?
+--- The margin here is 2.
+
+Which observations receive a penalty? Which observations are the support vectors?
+--- Observation 6, 7, 9, 10, 8 receive a penalty, and they are the support vectors.
+
+What is the total penalty here?
+--- The total penalty here is 0.25+0.25+1.75+2.25+1.25 = 5.75
+
+Can I choose a bigger margin if my total allowable penalty is 6?
+--- No I cannot. If I choose a bigger margin, then the observations which will receive penalty will become more.
+
+Are the data separable? If so, what are the support vectors?
+--- It is separable. These observations could be perfectly separated.
+    Observation 4,8,9 will be the support vectors.
